@@ -6,9 +6,11 @@ public class Main {
         System.out.println("Hamster-Genera objeto sin parametros");
         Hamster hamster1 = new Hamster();
         hamster1.mostrarInformacion();
+        hamster1.datosHamster();
         System.out.println("Canario-Genera objeto con parametros de la clase padre");
         Canario canario1 = new Canario(2,2.42);
         canario1.mostrarInformacion();
+        canario1.datosCanario();
         System.out.println("Tortuga-Genera objeto con parametros de la clase hija");
         Tortuga tortuga1 = new Tortuga("Verde",12.45);
         tortuga1.imprimirDatos();
@@ -36,6 +38,6 @@ public class Main {
 
         scanner.close();
 
-        
+
     }
 }
