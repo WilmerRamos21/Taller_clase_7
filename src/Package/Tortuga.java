@@ -1,6 +1,6 @@
 package Package;
 
-public class Tortuga {
+public class Tortuga extends Mascotas{
     //Atributos
     String colorCaparazon ;
     double longitudCaparazon ;
